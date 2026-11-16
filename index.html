@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050505">
+  <title>CSS Transform Hover Effect</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <h1>CSS Transform Hover Effect</h1>
+    <section class="effects" aria-label="CSS transform hover effect examples">
+      <article class="effect-card">
+        <div class="demo-area"><div class="demo-tile scale">Scale Up</div></div>
+        <div class="effect-info">
+          <h2>Scale Up</h2>
+          <pre><code>.scale:hover {
+  transform: scale(1.2);
+}</code></pre>
+        </div>
+      </article>
+
+      <article class="effect-card">
+        <div class="demo-area"><div class="demo-tile rotate">Rotate</div></div>
+        <div class="effect-info">
+          <h2>Rotate</h2>
+          <pre><code>.rotate:hover {
+  transform: rotate(25deg);
+}</code></pre>
+        </div>
+      </article>
+
+      <article class="effect-card">
+        <div class="demo-area"><div class="demo-tile move-up">Move Up</div></div>
+        <div class="effect-info">
+          <h2>Move Up</h2>
+          <pre><code>.moveUp:hover {
+  transform: translateY(-25px);
+}</code></pre>
+        </div>
+      </article>
+
+      <article class="effect-card">
+        <div class="demo-area"><div class="demo-tile skew-x">Skew X</div></div>
+        <div class="effect-info">
+          <h2>Skew X</h2>
+          <pre><code>.skewX:hover {
+  transform: skewX(15deg);
+}</code></pre>
+        </div>
+      </article>
+
+      <article class="effect-card">
+        <div class="demo-area"><div class="demo-tile rotate-360">Rotate 360°</div></div>
+        <div class="effect-info">
+          <h2>Rotate 360°</h2>
+          <pre><code>.rotate360:hover {
+  transform: rotate(360deg);
+}</code></pre>
+        </div>
+      </article>
+
+      <article class="effect-card">
+        <div class="demo-area"><div class="demo-tile move-right">Move Right</div></div>
+        <div class="effect-info">
+          <h2>Move Right</h2>
+          <pre><code>.moveRight:hover {
+  transform: translateX(25px);
+}</code></pre>
+        </div>
+      </article>
+
+      <article class="effect-card">
+        <div class="demo-area"><div class="demo-tile scale-down">Scale Down</div></div>
+        <div class="effect-info">
+          <h2>Scale Down</h2>
+          <pre><code>.scaleDown:hover {
+  transform: scale(.8);
+}</code></pre>
+        </div>
+      </article>
+
+      <article class="effect-card">
+        <div class="demo-area"><div class="demo-tile skew-y">Skew Y</div></div>
+        <div class="effect-info">
+          <h2>Skew Y</h2>
+          <pre><code>.skewY:hover {
+  transform: skewY(15deg);
+}</code></pre>
+        </div>
+      </article>
+
+      <article class="effect-card">
+        <div class="demo-area"><div class="demo-tile flip-x">Flip X</div></div>
+        <div class="effect-info">
+          <h2>Flip X</h2>
+          <pre><code>.flipX:hover {
+  transform: rotateX(180deg);
+}</code></pre>
+        </div>
+      </article>
+    </section>
+    <p class="hint">Hover over each orange tile to preview the transform. On touch devices, tap a tile.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
